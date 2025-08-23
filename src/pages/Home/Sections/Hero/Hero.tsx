@@ -9,6 +9,7 @@ export const Hero = () => {
     <section className={styles.hero}>
       <h1 className={styles.title}>{t("heroSectionTitle")}</h1>
       <p className={styles.subtitle}>{t("heroSectionDescription")}</p>
+      /*
       <div className="flex justify-center">
         <button
           onClick={() => (window.location.href = CHAT_URL)}
@@ -17,6 +18,7 @@ export const Hero = () => {
           {t("testDemo")}
         </button>
       </div>
+      */
     </section>
   );
 };
