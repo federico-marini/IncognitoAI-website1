@@ -26,7 +26,7 @@
   "integrateDescription": "Use AI securely without compromising privacy or compliance.",
   "getStartedTitle": "Get Started in 3 Steps",
   "howItWorks": "How it works",
-  "testDemo": "Test demo",
+  "testDemo": "Request demo",
   "samplePlainPrompt": "On January 15, 2025, Maria Rossi, HR Manager at ExampleTech S.p.A., sent an internal communication reporting a violation of company policies by Luigi Verdi.",
   "sampleAnonymizedPrompt": "On [DATE_1], [FIRST_NAME_1] [LAST_NAME_1], HR Manager at [COMPANY_NAME_1], sent an internal communication reporting a violation of company policies by [FIRST_NAME_2] [LAST_NAME_2]."
 }
