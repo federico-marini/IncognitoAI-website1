@@ -6,6 +6,10 @@ import logo from "/logo.svg";
 const Header = () => {
   const { t } = useTranslation();
 
+  const handleDocumentationClick = () => {
+    window.open("https://jovial-sawine-39648a.netlify.app", "_blank", "noopener,noreferrer");
+  };
+
   return (
     <header className={styles.header}>
       <nav
@@ -20,6 +24,12 @@ const Header = () => {
         <div className="flex items-center space-x-6">
           {/* Nav desktop */}
           <div className={`${styles.navLinks} hidden md:flex`}>
+            <button 
+              onClick={handleDocumentationClick}
+              className={styles.navLink}
+            >
+              {t("documentation")}
+            </button>
             <a href="#get-started" className={styles.navLink}>
               {t("getStarted")}
             </a>
@@ -33,6 +43,9 @@ const Header = () => {
       </nav>
     </header>
   );
+};
+
+export default Header;
 };
 
 export default Header;
