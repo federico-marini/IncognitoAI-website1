@@ -1,7 +1,9 @@
+// public/locales/en/translation.json
 {
   "features": "Features",
   "getStarted": "Get started",
   "contact": "Contact",
+  "documentation": "Documentation",
   "switchToItalian": "Switch to Italian",
   "switchToEnglish": "Switch to English",
   "anonymize": "Anonymize",
