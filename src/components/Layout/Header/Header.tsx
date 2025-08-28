@@ -21,7 +21,7 @@ const Header = () => {
           {/* Nav desktop */}
           <div className={`${styles.navLinks} hidden md:flex`}>
             <a 
-              href="https://jovial-sawine-39648a.netlify.app" 
+              href="https://docs.incognitoai.it/" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.navLink}
