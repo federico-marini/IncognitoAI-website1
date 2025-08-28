@@ -38,6 +38,10 @@
   font-weight: 500;
   font-size: 1.07rem;
   padding: 0.2rem 0.3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 .navLink:hover {
   color: var(--primary);
